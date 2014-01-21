@@ -1,5 +1,5 @@
 Raffler.ApplicationController = Ember.Controller.extend
-    entries: []
+  entries: []
 
   addEntry: ->
     @entries.pushObject name: @get('newEntryName')
